@@ -1,0 +1,5 @@
+node_modules
+.DS_Store
+.env
+.feedback_from_sam_kim.txt
+.package-lock.json
