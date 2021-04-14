@@ -4,7 +4,7 @@ const { Pool } = require('pg');
 require('dotenv').config();
 // const myURI = process.env.myURI;
 const myURI =
-  'postgres://vddqjgmn:MZvptiQyH9tHOTQZfCw1YWaOwcBt3u-j@queenie.db.elephantsql.com:5432/vddqjgmn';
+  'postgres://';
 const pool = new Pool({
   connectionString: myURI,
   max: 4,
